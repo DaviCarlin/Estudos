@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Estudos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .tips-section {
+            margin-top: 20px;
+        }
+        .tips-section h2 {
+            color: #333;
+        }
+        .tips-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .tips-section ul li {
+            background: #f9f9f9;
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 4px solid #4CAF50;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 100%;
+                padding: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Bem-vindo ao Meu Site de Estudos</h1>
+    </header>
+    <div class="container">
+        <div class="main">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Meu nome é [Seu Nome] e este é o meu site pessoal dedicado aos estudos. Aqui, você encontrará diversas dicas que me ajudaram ao longo da minha jornada acadêmica.</p>
+        </div>
+        <div class="tips-section">
+            <h2>Dicas de Estudos</h2>
+            <ul>
+                <li><strong>Organização:</strong> Mantenha um cronograma de estudos para otimizar seu tempo.</li>
+                <li><strong>Ambiente de Estudo:</strong> Escolha um local silencioso e bem iluminado.</li>
+                <li><strong>Materiais:</strong> Utilize materiais diversificados, como livros, vídeos e artigos.</li>
+                <li><strong>Prática:</strong> Faça exercícios práticos regularmente para reforçar o aprendizado.</li>
+                <li><strong>Descanso:</strong> Não esqueça de fazer pausas para descansar e evitar sobrecarga.</li>
+            </ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 [Seu Nome]. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
